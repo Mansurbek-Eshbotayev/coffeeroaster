@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  src: 
+  url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), 
+  url('../fonts/fraunces-v10-latin-900.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+  url('../fonts/barlow-v5-latin-regular.woff2') format('woff2'), 
+  url('../fonts/barlow-v5-latin-regular.woff') format('woff'); 
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
+img{
+  vertical-align: middle;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces', 'Arial' , serif;
+  font-family: 'Barlow', 'Arial' , sans-serif;
+}
+
+.site-header{
+  padding: 40px  0;
+}
+
+.container{
+  width: 1320px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+.header-one{
+  display: flex;
+  align-items: center;
+}
+
+.link-logo{
+  margin-right: auto;
+}
+
+.nav-menu{
+  display: flex;
+  
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item{
+  list-style: none;
+  margin-right: 33px;
+}
+
+.menu-item:nth-child(3){
+  margin: 0;
+}
+
+
+.item-link{
+  text-decoration: none;
+  color: rgba(131, 136, 143, 1);
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.item-link:hover{
+  color: rgba(51, 61, 75, 1);
+}
+
+/* <!-- =========MAIN====== --> */
+
+.hero-article{
+  padding-bottom: 80px;
+}
+
+.article-img{
+height: 600px;
+  background-image: url("../img/Bitmap.svg");
+  background-repeat: no-repeat;
+}
+
+.article-info{
+  width: 493px;
+  margin-left: 86px;
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+
+.info-title{
+  margin: 0;
+  color: rgba(254, 252, 247, 1);
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  margin-bottom: 32px;
+}
+
+.info-text{
+  margin: 0;
+  color: rgba(254, 252, 247, 1);
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 71px;
+}
+
+.info-link{
+  text-decoration: none;
+  color: rgba(254, 252, 247, 1);
+  padding: 15px 31px;
+  background-color: rgba(102, 210, 207, 1);
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 6px;
+}
+
